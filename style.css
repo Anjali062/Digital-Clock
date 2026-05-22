@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://tse1.explicit.bing.net/th/id/OIP.6wYC8YGN2rRI4lFE1IOopAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3")
+    no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.clock{
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1),0px 10px 20px rgba(0, 0, 0, 0.1);
+    height: 24vh;
+    border-radius: 12px;
+    padding: 20px;
+}
+.clock h1{
+    font-size: 3.5rpm;
+    font-weight: 600;
+}
+.clock span{
+    position: relative;
+    top: -13%;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
